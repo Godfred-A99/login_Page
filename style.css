@@ -94,7 +94,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .wrapper .form-box {
@@ -102,6 +102,9 @@ header {
     padding: 40px;
 }
 
+.wrapper .form-box.login {
+    display: none;
+}
 .wrapper .icon-close {
     position: absolute;
     top: 0;
